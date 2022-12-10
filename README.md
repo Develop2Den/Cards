@@ -4,6 +4,8 @@ email - TestEmail@test.com
 password - 12345
 
  Your token is: Bearer 8797bc75-a96d-4216-8d19-1c5d50d356bd
+ 
+ - сдесь можно увидеть [эту страницу](https://develop2den.github.io/Cards/)
 
 # First developer ( Денисов Денис )
 1. Створення та налаштування репозиторію.
