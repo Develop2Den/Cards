@@ -1,0 +1,120 @@
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px 0;
+    color: #32BA7C;
+}
+.visit-card {
+    width: 100%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border-top: 10px solid green;
+    border-bottom: 1px solid #ba5f2b;
+    margin: 20px;
+    padding: 10px;
+    color: rgba(139,69,19,0.6);
+    background-color: rgba(139,69,19,0.1);
+    text-align: center;
+}
+.visit-card__main-text{
+    font-size: 24px;
+    color: #8B4513FF;
+}
+.visit-card__big{
+    max-width: 30%;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardsMainInfoContainer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 20px 0;
+}
+.visit-card--main-info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardsMoreInfoContainer{
+    width: calc(100% - 20px);
+    text-align: left;
+    padding: 20px;
+}
+
+.visit-card--addition{
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.visit-card--addition-info{
+    color: #8B4513FF;
+    font-size: 20px;
+}
+
+.visit-card--button{
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: #8B4513FF;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.delete-icon{
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    right: 0;
+    top: 0px;
+}
+.delete-icon:hover path{
+    fill: #b20101;
+}
+.visit-card--button:hover{
+    background-color: #4d250b;
+}
+.checked-icon{
+    position: absolute;
+    width: 24px;
+    right: 30px;
+    top: 0px;
+}
+
+.green{
+    fill:#008000;
+    cursor: pointer;
+}
+.checked-icon.green:hover{
+    fill: #006200;
+}
+
+.off{
+    fill: #8c8989;
+}
+.checked-icon.off:hover{
+    fill: #737272;
+}
+
+@media (min-width: 768px) {
+    .visit-card{
+        width: calc(50% - 40px);
+    }
+}
+
+@media (min-width: 992px) {
+    .visit-card{
+        width: calc(33.33% - 40px);
+    }
+}

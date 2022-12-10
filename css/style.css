@@ -1,0 +1,130 @@
+@import url(./modal.css);
+@import url(./visit-card.css);
+
+.allContainer{
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    border: 2px solid green;
+    min-width: 300px;
+    overflow: hidden;
+}
+.header {
+    background-color: #f3f1c9;
+    width: 100%;
+}
+.header__section {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    gap: 25px;
+}
+.header__section-logo {
+    display: flex;
+    align-items: center;
+}
+.header__section-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+.header__section-title {
+    display: flex;
+    align-items: center;
+}
+.text {
+    color: darkgreen;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.col {
+    display: flex;
+    align-items: center;
+}
+.my-btn {
+    padding: 3px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    min-width: 80px;
+    margin-right: 50px;
+}
+.my-btn:hover {
+    cursor: pointer;
+}
+.filter {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ba5f2b;
+}
+.filter__input {
+    width: 220px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.filter__select-one {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.filter__select-two {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.filter__btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+.filter__btn-clear {
+    border: 2px solid black;
+    border-radius: 5px;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main__text {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 210px 0px;
+}
+.main__text-new {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    padding: 260px 0px;
+}
+.footer {
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__section-img {
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer__copy {
+    color: #E5E5E5;
+    padding-top: 50px;
+}
+.footer__phone {
+    color: #E5E5E5;
+    padding-top: 30px;
+}
