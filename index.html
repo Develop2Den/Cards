@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cards</title>
+</head>
+
+<body>
+    <div class="allContainer">
+        <header class=header>
+            <div class="header__section">
+                <div class="header__section-logo">
+                    <img class="header__section-img" src="./images/logo.png" alt="img" />
+                </div>
+                <div class="header__section-title">
+                    <h1 class="text">Ми дбаємо про вас та про ваше здоров'я!</h1>
+                </div>
+                <div id="btn-wrapper" class="col">
+                    <button id="main-sign-in" class="my-btn">Sign-in</button>
+                </div>
+            </div>
+        </header>
+        <section class="filter">
+            <form class="filter__form">
+                <input class="filter__input" placeholder="Search by title/doctor" type="text" name="inputSearch" aria-label="filter__form default input">
+
+                <select class="filter__select-one" name="filterStatus" id="selectStatus" aria-label="filter__form">
+                    <option selected>Search by status</option>
+                    <option value="open">Open</option>
+                    <option value="done">Done</option>
+                </select>
+                <select class="filter__select-two" name="filterEmergency" id="selectTime" aria-label="filter__form">
+                    <option selected>The urgency of the visit</option>
+                    <option value="low">Low</option>
+                    <option value="normal">Normal</option>
+                    <option value="high">High</option>
+                </select>
+                <button type="submit" class="filter__btn">Filter</button>
+                <button type="button" class="filter__btn-clear">Clean up</button>
+
+            </form>
+        </section>
+
+        <main>
+            <h3 class="main__text">No items have been added</h3>
+           <div class="cardsContainer"></div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__logo">
+                <img class="footer__section-img" src="./images/logo.png" alt="img" />
+            </div>
+            <div class="footer__copy">
+                <p class="footer__text">© 2022 Copyright Clinic Health, Inc. All rights reserved.</p>
+            </div>
+            <div class="footer__phone">
+                <p>Контакти:</p>
+                <p>8(044)555-55-55</p>
+                <p>8(044)777-77-77</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
